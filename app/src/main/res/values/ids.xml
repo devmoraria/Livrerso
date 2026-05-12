@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tilEmail" type="id" />
+    <item name="tilSenha" type="id" />
+    <item name="etEmail" type="id" />
+    <item name="etSenha" type="id" />
+    <item name="btnLogin" type="id" />
+    <item name="tvEsqueciSenha" type="id" />
+    <item name="tvCadastrar" type="id" />
+    <item name="progressBar" type="id" />
+</resources>

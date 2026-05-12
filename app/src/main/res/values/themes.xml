@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#18C4D1</item>
+
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_foreground</item>
+
+        <item name="windowSplashScreenAnimationDuration">500</item>
+
+        <item name="postSplashScreenTheme">@style/Theme.Livrerso</item>
+    </style>
+
+    <style name="Theme.Livrerso" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#66B2A8</item>
+        <item name="colorPrimaryVariant">#4A88A9</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+
+</resources>

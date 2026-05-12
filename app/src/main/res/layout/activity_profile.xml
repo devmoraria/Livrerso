@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5698B9"
+    android:padding="24dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="32dp"
+        app:cardBackgroundColor="#FDFDFD"
+        app:cardElevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LIVRERSO"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#222222" />
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="50dp"
+                android:src="@android:drawable/ic_menu_gallery"
+                android:background="@drawable/edit_text_rounded"
+                android:padding="25dp" />
+
+            <TextView
+                android:id="@+id/tvNomePerfil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Nome do Usuário"
+                android:textSize="24sp"
+                android:textColor="#333333"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="perfil@livrerso.com"
+                android:textColor="#777777"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="40dp">
+
+                <TextView
+                    android:id="@+id/btnFavoritos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="❤️ Meus Favoritos"
+                    android:padding="15dp"
+                    android:textSize="18sp"
+                    android:textColor="#444444" />
+
+                <TextView
+                    android:id="@+id/btnBaixados"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="📥 Livros Baixados"
+                    android:padding="15dp"
+                    android:textSize="18sp"
+                    android:textColor="#444444" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#EEEEEE"
+                    android:layout_marginVertical="10dp" />
+
+                <TextView
+                    android:id="@+id/btnSair"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="⬅️ Sair da Conta"
+                    android:padding="15dp"
+                    android:textSize="18sp"
+                    android:textColor="#E53935"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</RelativeLayout>
