@@ -21,9 +21,7 @@
             android:orientation="vertical"
             android:paddingHorizontal="14dp">
 
-            <!-- ══════════════════════════════════════
-                 CARD DE BOAS-VINDAS
-            ══════════════════════════════════════ -->
+            <!---->
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/cardDesafioDoDia"
                 android:layout_width="match_parent"
@@ -44,7 +42,7 @@
                     android:orientation="vertical"
                     android:padding="20dp">
 
-                    <!-- Linha: Logo + Streak -->
+                    <!-- Linha: Logo -->
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
@@ -60,7 +58,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="LIVRER"
-                                android:textColor="#F0F0F0"
+                                android:textColor="#222222"
                                 android:textSize="24sp"
                                 android:textStyle="bold"/>
                             <TextView
@@ -243,9 +241,7 @@
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
-            <!-- ══════════════════════════════════════
-                 CARD: DESAFIO DO DIA
-            ══════════════════════════════════════ -->
+            <!--Estou bravo-->
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/cardDesafioLista"
                 android:layout_width="match_parent"
@@ -305,9 +301,7 @@
                 </RelativeLayout>
             </com.google.android.material.card.MaterialCardView>
 
-            <!-- ══════════════════════════════════════
-                 CARD: BIBLIOTECA DE ALEXANDRIA
-            ══════════════════════════════════════ -->
+            <!-- BIBLIOTECA DE ALEXANDRIA -->
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/cardBiblioteca"
                 android:layout_width="match_parent"
@@ -383,9 +377,7 @@
         </LinearLayout>
     </ScrollView>
 
-    <!-- ══════════════════════════════════════
-         BOTTOM NAV
-    ══════════════════════════════════════ -->
+    <!-- Botão nav -->
     <LinearLayout
         android:id="@+id/bottomNav"
         android:layout_width="match_parent"

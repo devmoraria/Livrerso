@@ -172,7 +172,7 @@ class DesafioDoDialActivity : AppCompatActivity() {
         btnAleatorio.isEnabled = false
         handler.post(pontosRunnable)
 
-        // ✅ Queries precisas por gênero — sem duplo filtro, sem underscore
+        // ✅ Queries precisas por gênero — sem duplo filtro
         val query = when (genero) {
             "brazilian_literature" -> "subject:\"literatura brasileira\""
             "romance"              -> "subject:romance OR subject:\"romance fiction\""
