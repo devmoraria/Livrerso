@@ -20,7 +20,7 @@ O **Livrerso** é um assistente de leitura gamificado que ajuda você a encontra
 
 | Tela de Login | Home Screen |
 | :---: | :---: |
-| ![Login](login.png) | ![Home](home.png) |
+| ![Login](login-user.png) | ![Home](home.png) |
 
 ### 2. A Experiência de Descoberta
 
